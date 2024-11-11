@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Win32;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -42,12 +43,17 @@ namespace WpfApp1
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
-            DisplayImage.Source = new BitmapImage(new Uri(imgsourcel1));
+            OpenFileDialog openFileDialog = new OpenFileDialog { Filter = "Image Files| *.jpg; *.jpeg; *.png; *.gif; *.bmp; "};
+            if(openFileDialog.ShowDialog()==true)
+            {
+                BitmapImage bitmapImage = new BitmapImage(new Uri(openFileDialog.FileName));
+                DisplayImage.Source = bitmapImage;
+            }
         }
 
-        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            DisplayImage.Source = new BitmapImage(new Uri(imgsourcel2));
+            qqqqq.Text = "банан";
         }
     }
 }
