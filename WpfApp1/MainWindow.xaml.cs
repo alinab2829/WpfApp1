@@ -34,7 +34,19 @@ namespace WpfApp1
             window.Show();
             this.Close();
         }
-
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Window3 window = new Window3();
+            window.Show();
+            this.Close();
+        }
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Window5 window = new Window5();
+            window.Show();
+            this.Close();
+        }
+     
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Приложение закрылось");
@@ -55,5 +67,7 @@ namespace WpfApp1
         {
             qqqqq.Text = "банан";
         }
+
+        
     }
 }

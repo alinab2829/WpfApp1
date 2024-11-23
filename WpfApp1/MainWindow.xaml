@@ -27,7 +27,8 @@
         <Image  Name ="DisplayImage" HorizontalAlignment="Left" Height="177" Margin="551,96,0,0" VerticalAlignment="Top" Width="173"/>
         <TextBlock Name ="qqqqq"  HorizontalAlignment="Left" Height="65" Margin="51,126,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="102"/>
         <Button Content="кнопка" HorizontalAlignment="Left" Height="52" Margin="393,86,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_1"/>
-
+        <Button Content="радио"  HorizontalAlignment="Left" Height="23" Margin="393,26,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_2"/>
+        <Button Content="vopros"  HorizontalAlignment="Left" Height="50" Margin="143,141,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_3"/>
 
     </Grid>
 </Window>

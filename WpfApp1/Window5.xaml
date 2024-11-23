@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Content="Как меня зовут?" HorizontalAlignment="Left" Height="23" Margin="20,0,0,0" VerticalAlignment="Top" Width="179"/>
+            <RadioButton Name="vopros" GroupName="Test" Content="алина"/>
+            <RadioButton Name="vopros2" GroupName="Test" Content="вася"/>
+            <RadioButton Name="vopros3" GroupName="Test" Content="петя"/>
+            <RadioButton Name="vopros33" GroupName="Test" Content="не знаю"/>
+            <Separator/>
+            
+
+            <Label Content="дом или квартира?" HorizontalAlignment="Left" Height="23" Margin="20,0,0,0" VerticalAlignment="Top" Width="179"/>
+            <RadioButton Name="vopros4" GroupName="Test1" Content="дом"/>
+            <RadioButton Name="vopros5" GroupName="Test1" Content="квартира"/>
+            <RadioButton Name="vopros51" GroupName="Test1" Content="живу на работе"/>
+            <RadioButton Name="vopros6" GroupName="Test1" Content="и то и то"/>
+            <Separator/>
+            
+
+            <Label Content="какой телефон круче?" HorizontalAlignment="Left" Height="23" Margin="20,0,0,0" VerticalAlignment="Top" Width="179"/>
+            <RadioButton Name="vopros7" GroupName="Test2" Content="айфон"/>
+            <RadioButton Name="vopros8" GroupName="Test2" Content="андроед"/>
+            <RadioButton Name="vopros81" GroupName="Test2" Content="хожу с кнопочным"/>
+            <RadioButton Name="vopros9" GroupName="Test2" Content="все телефоны крутые!!"/>
+            <Separator/>
+            
+
+            <Label Content="комп или ноутбук или планшет?" HorizontalAlignment="Left" Height="23" Margin="20,0,0,0" VerticalAlignment="Top" Width="179"/>
+            <RadioButton Name="vopros10" GroupName="Test3" Content="комп"/>
+            <RadioButton Name="vopros11" GroupName="Test3" Content="ноут"/>
+            <RadioButton Name="vopros12" GroupName="Test3" Content="планшет"/>
+            <RadioButton Name="vopros13" GroupName="Test3" Content="покофон"/>
+
+            <Separator/>
+            <Button Content="ответить" Click="Button_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
