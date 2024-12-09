@@ -33,6 +33,7 @@ namespace WpfApp1
             Window1 window = new Window1();
             window.Show();
             this.Close();
+
         }
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
@@ -68,6 +69,9 @@ namespace WpfApp1
             qqqqq.Text = "банан";
         }
 
-        
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

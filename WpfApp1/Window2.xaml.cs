@@ -47,6 +47,7 @@ namespace WpfApp1
             _operation = button.Content.ToString()[0];
             _storedValue = double.Parse(txtDisplay.Text);
             txtDisplay.Text = "0";
+            
         }
 
         private void EqualsButton_Click(Object sender, RoutedEventArgs e)

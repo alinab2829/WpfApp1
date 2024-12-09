@@ -6,29 +6,32 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+
     <Grid>
         <Menu Height="25" VerticalAlignment="Top">
-            <MenuItem Header="Файл" Height="25">
+            <MenuItem Header="Файл" Height="25" Click="MenuItem_Click_2">
                 <MenuItem.Icon>
-                    <Image Source="\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\alinaboltaeva\Desktop\Без названия.png"></Image>
+                    <Image Source="\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\alinaboltaeva\Desktop\img.png"></Image>
                 </MenuItem.Icon>
                 <MenuItem Header="Открыть" Click="MenuItem_Click_1">
-                    
+
                 </MenuItem>
                 <MenuItem Header="Сохранить">
-                    
+
                 </MenuItem>
                 <Separator/>
                 <MenuItem Header="Выйти" Click="MenuItem_Click"></MenuItem>
             </MenuItem>
         </Menu>
+        
+
         <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Width="106" Margin="339,200,0,0" Height="58" Click="Button_Click"/>
         <Image  Name ="DisplayImage" HorizontalAlignment="Left" Height="177" Margin="551,96,0,0" VerticalAlignment="Top" Width="173"/>
         <TextBlock Name ="qqqqq"  HorizontalAlignment="Left" Height="65" Margin="51,126,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="102"/>
         <Button Content="кнопка" HorizontalAlignment="Left" Height="52" Margin="393,86,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_1"/>
         <Button Content="радио"  HorizontalAlignment="Left" Height="23" Margin="393,26,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_2"/>
         <Button Content="vopros"  HorizontalAlignment="Left" Height="50" Margin="143,141,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_3"/>
+        
 
     </Grid>
 </Window>

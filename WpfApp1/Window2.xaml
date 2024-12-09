@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Calc" Height="450" Width="300">
     <Grid>
+        
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
@@ -37,14 +38,57 @@
                 <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1" Click="NumberButton_Click"/>
                 <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2" Click="NumberButton_Click"/>
                 <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"/>
-                <Button Name="btnDel" Content="/" Grid.Row="0" Grid.Column="1" Click="OperationButton_Click"/>
-                <Button Name="btnMul" Content="*" Grid.Row="0" Grid.Column="2" Click="OperationButton_Click"/>
-                <Button Name="btnMin" Content="-" Grid.Row="0" Grid.Column="3" Click="OperationButton_Click"/>
-                <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Click="OperationButton_Click"/>
-                <Button Name="btnRes" Content="=" Grid.Row="3" Grid.RowSpan="4" Grid.Column="4" Click="EqualsButton_Click"/>
-                <Button Name="btnClea" Content="C" Grid.Row="0" Grid.Column="0" Click="ClearButton_Click"/>
-                <Button Name="btnDec" Content="." Grid.Row="4" Grid.Column="2" Click="NumberButton_Click"/>
-
+                <Button Name="btnDel" Content="/" Grid.Row="0" Grid.Column="1"  Click="OperationButton_Click">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            "Деление"
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Name="btnMul" Content="*" Grid.Row="0" Grid.Column="2" Click="OperationButton_Click">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            "Умножение"
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Name="btnMin" Content="-" Grid.Row="0" Grid.Column="3" Click="OperationButton_Click">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            "Отнимает"
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Click="OperationButton_Click">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            "Сложение"
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Name="btnRes" Content="=" Grid.Row="3" Grid.RowSpan="4" Grid.Column="4" Click="EqualsButton_Click">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            "Вывод"
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Name="btnClea" Content="C" Grid.Row="0" Grid.Column="0" Click="ClearButton_Click">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            "Стирает"
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button Name="btnDec" Content="." Grid.Row="4" Grid.Column="2" Click="NumberButton_Click">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            "Точка"
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                
+                   
 
 
             </Grid>
