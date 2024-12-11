@@ -73,5 +73,12 @@ namespace WpfApp1
         {
 
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Window4 window = new Window4();
+            window.Show();
+            this.Close();
+        }
     }
 }
